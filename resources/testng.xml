@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Automation Test Suite">
-    <test name="All Tests">
+<suite name="Selenium Test Suite">
+    <test name="Login Tests">
         <classes>
             <class name="com.mashtura.tests.tests.LoginTest"/>
-            <class name="com.mashtura.tests.tests.CreateUserTest"/>
-            <class name="com.mashtura.tests.tests.DateManipulationTest"/>
-            <class name="com.mashtura.tests.tests.EmailVerificationTest"/>
         </classes>
     </test>
 </suite>

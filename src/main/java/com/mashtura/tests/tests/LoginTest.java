@@ -1,10 +1,29 @@
 package com.mashtura.tests.tests;
-import org.testng.annotations.Test;
+
 import com.mashtura.tests.base.BaseTest;
+import com.mashtura.tests.pages.LoginPage;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
+    WebDriver driver;
+    private String email, password,testUrl;
+
     @Test
     public void testLogin() {
         // Add login test logic here.
+        try {
+            email = configReader.getValue("userEmail");
+            password = configReader.getValue("userPassword");
+            testUrl= configReader.getValue("testUrl");
+            driver = getDriver();
+            driver.get(testUrl);
+            LoginPage loginPage = new LoginPage(driver, email, password);
+            loginPage.doLogin("email","ID", "password","ID" ,"btn-primary","name");
+            tearDown();
+        } catch (Exception e) {
+            tearDown();
+            throw new RuntimeException(e);
+        }
     }
 }
