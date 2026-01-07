@@ -1,11 +1,13 @@
-# Mashtura Automation Suite
+# seleniumTestNG-automation-suite
+
 
 This project is an automation suite built with Selenium WebDriver, TestNG, and Java. It is designed to automate tests for login, user creation, date manipulation, and email verification processes.
 
 ## Project Structure
 
 ```
-mashtura-automation/
+seleniumTestNG-automation-suite
+/
 ├── src/
 │   ├── main/
 │   │   ├── java/
