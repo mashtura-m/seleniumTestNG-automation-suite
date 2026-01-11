@@ -1,7 +1,7 @@
-package com.mashtura.tests.tests;
+package com.mashtura.test.tests;
 
 import org.testng.annotations.Test;
-import com.mashtura.tests.base.BaseTest;
+import com.mashtura.test.base.BaseTest;
 
 public class EmailVerificationTest extends BaseTest {
     @Test

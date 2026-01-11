@@ -2,7 +2,7 @@
 <suite name="Selenium Test Suite">
     <test name="Login Tests">
         <classes>
-            <class name="com.mashtura.tests.tests.LoginTest"/>
+            <class name="com.mashtura.test.tests.LoginTest"/>
         </classes>
     </test>
 </suite>

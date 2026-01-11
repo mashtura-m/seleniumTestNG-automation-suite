@@ -1,9 +1,7 @@
-package com.mashtura.tests.base;
+package com.mashtura.test.base;
 
-import com.mashtura.tests.utils.ConfigReader;
+import com.mashtura.test.utils.ConfigReader;
 import org.openqa.selenium.WebDriver;
-
-import java.util.Properties;
 
 public class BaseTest {
     // Common setup and teardown for tests

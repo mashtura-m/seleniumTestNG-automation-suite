@@ -1,7 +1,6 @@
-package com.mashtura.tests.utils;
+package com.mashtura.test.utils;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;

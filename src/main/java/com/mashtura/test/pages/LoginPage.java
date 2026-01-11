@@ -1,8 +1,6 @@
-package com.mashtura.tests.pages;
+package com.mashtura.test.pages;
 
-import com.mashtura.tests.base.SeleniumEngine;
-import com.mashtura.tests.base.WebDriverManagerUtil;
-import org.openqa.selenium.By;
+import com.mashtura.test.utils.SeleniumEngine;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 

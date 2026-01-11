@@ -1,7 +1,7 @@
-package com.mashtura.tests.tests;
+package com.mashtura.test.tests;
 
-import com.mashtura.tests.base.BaseTest;
-import com.mashtura.tests.pages.LoginPage;
+import com.mashtura.test.base.BaseTest;
+import com.mashtura.test.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 

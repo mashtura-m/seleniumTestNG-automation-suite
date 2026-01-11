@@ -6,12 +6,12 @@
     <groups>
     </groups>
     <test started-at="2026-01-08T03:22:17 BDT" name="seleniumTestNG-automation-suite" finished-at="2026-01-08T03:22:18 BDT" duration-ms="467">
-      <class name="com.mashtura.tests.tests.LoginTest">
-        <test-method signature="testLogin()[pri:0, instance:com.mashtura.tests.tests.LoginTest@1d3ac898]" started-at="2026-01-08T03:22:17 BDT" name="testLogin" finished-at="2026-01-08T03:22:18 BDT" duration-ms="445" status="PASS">
+      <class name="com.mashtura.test.tests.LoginTest">
+        <test-method signature="testLogin()[pri:0, instance:com.mashtura.test.tests.LoginTest@1d3ac898]" started-at="2026-01-08T03:22:17 BDT" name="testLogin" finished-at="2026-01-08T03:22:18 BDT" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-      </class> <!-- com.mashtura.tests.tests.LoginTest -->
+      </class> <!-- com.mashtura.test.tests.LoginTest -->
     </test> <!-- seleniumTestNG-automation-suite -->
   </suite> <!-- Default Suite -->
 </testng-results>

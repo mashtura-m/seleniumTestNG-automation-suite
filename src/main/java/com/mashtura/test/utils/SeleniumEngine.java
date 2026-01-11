@@ -1,4 +1,4 @@
-package com.mashtura.tests.base;
+package com.mashtura.test.utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

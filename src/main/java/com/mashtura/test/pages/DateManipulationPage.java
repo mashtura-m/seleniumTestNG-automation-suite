@@ -1,4 +1,4 @@
-package com.mashtura.tests.pages;
+package com.mashtura.test.pages;
 
 /**
  * Page class for date manipulation.
